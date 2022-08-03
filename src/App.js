@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
 import Experience from "./components/Experience";
-import Video from "./components/Video";
+//import Video from "./components/Video";
 import Headsets from "./components/Headsets";
 
 const App = () => {
@@ -23,7 +23,6 @@ const App = () => {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <Experience />
-      <Video />
       <Headsets />
     </div>
   );
