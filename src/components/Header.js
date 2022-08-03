@@ -13,7 +13,7 @@ const Header = ({ setNavMobile }) => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {" "}
-          {/* logo */}
+          {/* logo "react-modal-video": "^1.2.9",*/}
           <a href="#!">
             <img className="h-[30px]" src={Logo} alt="" />
           </a>
