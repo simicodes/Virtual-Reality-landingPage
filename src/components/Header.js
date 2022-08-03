@@ -19,7 +19,7 @@ const Header = ({ setNavMobile }) => {
           </a>
           {/* nav */}
           <Nav />
-          {/* nav mobile btn "react-modal-video": "^1.2.9",*/}
+          {/* nav mobile btn */}
           <HiMenu
             onClick={() => setNavMobile(true)}
             className="lg:hidden text-white cursor-pointer text-3xl"
