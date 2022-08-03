@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 //import Video from "./components/Video";
 import Headsets from "./components/Headsets";
 import Testimonial from "./components/Testimonial";
+import Explore from "./components/Explore";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
       <Experience />
       <Headsets />
       <Testimonial />
+      <Explore />
     </div>
   );
 };
