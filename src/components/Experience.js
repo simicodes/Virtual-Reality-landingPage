@@ -11,16 +11,26 @@ const Experience = () => {
         <div className="flex flex-col min-h-[480px] lg:space-x-20 lg:flex-row">
           <div className="flex-1 flex space-x-6 items-center lg:space-x-12">
             {/* images */}
-            <div className="self-start">
+            <div
+              className="self-start"
+              data-aos="fade-down"
+              data-aos-offset="400"
+            >
               <img src={Img1} alt="/" />
             </div>
-            <div className="self-end">
+            <div className="self-end" data-aos="fade-up">
               <img src={Img2} alt="/" />
             </div>
           </div>
           {/* text */}
-          <div className="flex-1 flex flex-col items-start justify-center mt-6 lg:mt-0">
-            <h2 className="capitalize text-3xl font-bold mb-6">New Experience in playing games</h2>
+          <div
+            className="flex-1 flex flex-col items-start justify-center mt-6 lg:mt-0"
+            data-aos="fade-left"
+            data-aos-offset="400"
+          >
+            <h2 className="capitalize text-3xl font-bold mb-6">
+              New Experience in playing games
+            </h2>
             <p className="font-secondary mb-6">
               You can try playing the game with a new style and of course a more
               real feel, like you are the main character in your game and
